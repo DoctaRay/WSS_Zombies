@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "SCharacter.generated.h"
 
+class UCameraComponent;
+
 UCLASS()
 class CULMINATINGPROJ_API ASCharacter : public ACharacter
 {
@@ -22,6 +24,13 @@ protected:
 	void MoveForward(float Value);
 
 	void MoveRight(float Value);
+
+	void BeginCrouch();
+
+	void EndCrouch();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UCameraComponent* CameraComp;
 
 public:	
 	// Called every frame
