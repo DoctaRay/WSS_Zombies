@@ -7,6 +7,8 @@
 #include "SCharacter.generated.h"
 
 class UCameraComponent;
+class USpringArmComponent;
+class ASWeapon;
 
 UCLASS()
 class CULMINATINGPROJ_API ASCharacter : public ACharacter
@@ -29,8 +31,40 @@ protected:
 
 	void EndCrouch();
 
+	void BeginAim();
+
+	void EndAim();
+
+	void StartFire();
+
+	void EndFire();
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* CameraComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USpringArmComponent* SpringArmComp;
+
+	bool bWantsToZoom;
+
+	bool bWantsToFire = false;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	float ZoomedFOV;
+
+	//during normal gameplay
+	float DefaultFOV;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player", meta = (ClampMin = 0.1, ClampMax = 100))
+	float ZoomInterpSpeed;
+
+	ASWeapon* CurrentWeapon;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	TSubclassOf<ASWeapon> StarterWeaponClass;
+
+
+
 
 public:	
 	// Called every frame
@@ -38,5 +72,9 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	virtual FVector GetPawnViewLocation() const override;
+
+
 
 };

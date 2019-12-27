@@ -7,6 +7,8 @@
 #include "SWeapon.generated.h"
 
 class USkeletalMeshComponent; 
+class UDamageType;
+class UParticleSystem;
 
 UCLASS()
 class CULMINATINGPROJ_API ASWeapon : public AActor
@@ -21,11 +23,28 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	void FireEffects(FVector EyeLocation, FVector TraceEnd);
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USkeletalMeshComponent* MeshComp;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	TSubclassOf<UDamageType> DamageType;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	FName MuzzleSocketName;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	UParticleSystem* MuzzleEffect;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	UParticleSystem* ImpactEffect;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	void Fire();
 
 };
