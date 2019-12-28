@@ -9,6 +9,7 @@
 class UCameraComponent;
 class USpringArmComponent;
 class ASWeapon;
+class USHealthComponent;
 
 UCLASS()
 class CULMINATINGPROJ_API ASCharacter : public ACharacter
@@ -39,15 +40,24 @@ protected:
 
 	void EndFire();
 
+	UFUNCTION()
+	void OnHealthChanged(USHealthComponent* OwningHealthComp, float Health, float HealthChanged, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* CameraComp;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USpringArmComponent* SpringArmComp;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USHealthComponent* HealthComp;
+
 	bool bWantsToZoom;
 
 	bool bWantsToFire = false;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Player")
+	bool bDied;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Player")
 	float ZoomedFOV;
@@ -62,8 +72,6 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Player")
 	TSubclassOf<ASWeapon> StarterWeaponClass;
-
-
 
 
 public:	

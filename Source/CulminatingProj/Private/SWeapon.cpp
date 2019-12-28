@@ -5,6 +5,9 @@
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
 #include "Particles/ParticleSystem.h"
+#include "PhysicalMaterials/PhysicalMaterial.h"
+#include "CulminatingProj.h"
+
 
 static int32 DebugWeaponDrawing = 0;
 FAutoConsoleVariableRef CVARDebugWeaponDrawing(TEXT("COOP.DebugWeapons"), DebugWeaponDrawing, TEXT("Draw Debug Lines for Weapons"), ECVF_Cheat);
@@ -22,6 +25,8 @@ ASWeapon::ASWeapon()
 	RootComponent = MeshComp;
 
 	MuzzleSocketName = "MuzzleSocket";
+
+	BaseDamage = 20.f;
 
 }
 
@@ -49,19 +54,42 @@ void ASWeapon::Fire()
 		QueryParams.AddIgnoredActor(MyOwner);
 		QueryParams.AddIgnoredActor(this); 
 		QueryParams.bTraceComplex = true;
+		QueryParams.bReturnPhysicalMaterial = true;
 
 		FHitResult Hit;
 
-		if (GetWorld()->LineTraceSingleByChannel(OUT Hit, EyeLocation, TraceEnd, ECC_Visibility, QueryParams))
+		if (GetWorld()->LineTraceSingleByChannel(OUT Hit, EyeLocation, TraceEnd, COLLISION_WEAPON, QueryParams))
 		{
 			//Blocking hit, process damage
 			AActor* HitActor = Hit.GetActor();
 
-			UGameplayStatics::ApplyPointDamage(HitActor, 20.0f, ShotDirection, Hit, MyOwner->GetInstigatorController(), this, DamageType);
+			EPhysicalSurface SurfaceType = UPhysicalMaterial::DetermineSurfaceType(Hit.PhysMaterial.Get());
 
-			if (ImpactEffect)
+			ActualDamage = BaseDamage;
+			if (SurfaceType == SURFACE_FLESHVULNERABLE)
 			{
-				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.ImpactPoint, Hit.ImpactNormal.Rotation());
+				ActualDamage *= 2.5;
+			}
+			
+			UGameplayStatics::ApplyPointDamage(HitActor, ActualDamage, ShotDirection, Hit, MyOwner->GetInstigatorController(), this, DamageType);
+
+			UParticleSystem* SelectedEffect = nullptr;
+			switch(SurfaceType)
+			{
+				case SURFACE_FLESHDEFAULT:
+					SelectedEffect = FleshImpactEffect;
+					break;
+				case SURFACE_FLESHVULNERABLE:
+					SelectedEffect = FleshImpactEffect;
+					break;
+				default: 
+					SelectedEffect = DefaultImpactEffect;
+					break;
+			} 
+
+			if (SelectedEffect)
+			{
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), SelectedEffect, Hit.ImpactPoint, Hit.ImpactNormal.Rotation());
 			}
 			
 		}
@@ -80,16 +108,25 @@ void ASWeapon::Tick(float DeltaTime)
 
 void ASWeapon::FireEffects(FVector EyeLocation, FVector TraceEnd)
 {
-		if (DebugWeaponDrawing > 0)
-		{
-			DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::Red, false, 10.f, 0, 1.f);
-		}
+		// if (DebugWeaponDrawing > 0)
+		// {
+		DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::Red, false, 10.f, 0, 1.f);
+		//}
 
 		if (MuzzleEffect)
 		{
 			UGameplayStatics::SpawnEmitterAttached(MuzzleEffect, MeshComp, MuzzleSocketName);
 		}
 	
-	
+		//Cast to pawn for access to camera shake method
+		APawn* MyOwner = Cast<APawn>(GetOwner());
+		if (MyOwner)
+		{
+			APlayerController* PC = Cast<APlayerController>(MyOwner->GetController());
+			if (PC)
+			{
+				PC->ClientPlayCameraShake(FireCamShake);
+			}
+		}
 }
 
