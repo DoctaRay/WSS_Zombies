@@ -7,6 +7,8 @@
 #include "STrackerBot.generated.h"
 
 class USHealthComponent;
+class USphereComponent;
+class USoundCue;
 
 UCLASS()
 class CULMINATINGPROJ_API ASTrackerBot : public APawn
@@ -24,6 +26,10 @@ protected:
 	UFUNCTION()
 	void HandleTakeDamage(USHealthComponent* OwningHealthComp, float Health, float HealthChanged, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
+	void SelfDestruct();
+
+	void SelfDamage();
+
 	UPROPERTY(BlueprintReadWrite, VisibleDefaultsOnly, Category = "Components")
 	UStaticMeshComponent* MeshComp;
 
@@ -32,9 +38,37 @@ protected:
 
 	//FVector GetNextPathPoint();
 
+	// Dynamic Material to pulse on take damage
+	UMaterialInstanceDynamic* MatInst;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	UParticleSystem* ExplosionEffect;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot") 
+	USphereComponent* SphereComp;
+
+	FTimerHandle TimerHandleSelfDamage;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot") 
+	USoundCue* SelfDestructSound;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot") 
+	USoundCue* ExplodeSound;
+
+	bool bExploded;
+
+	bool bStartedSelfDestruction;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	float ExplosionRadius;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	float ExplosionDamage;
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 };

@@ -7,7 +7,10 @@
 ASPowerUpActor::ASPowerUpActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
+
+	PowerUpInterval = 0.0f;
+	TotalTicks = 0;
 
 }
 
@@ -15,7 +18,35 @@ ASPowerUpActor::ASPowerUpActor()
 void ASPowerUpActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+}
+
+void ASPowerUpActor::OnTickPowerUp()
+{
+	TicksDone++;
+
+	OnPowerUpTicked();
+
+	if (TicksDone >= TotalTicks)
+	{
+		OnExpired();
+
+		// Delete timer
+		GetWorldTimerManager().ClearTimer(TimerHandlePowerUpTick);
+	}
+}
+
+void ASPowerUpActor::ActivatePowerUp()
+{
+	OnActivated();	
+
+	if (PowerUpInterval > 0.0f)
+	{
+		GetWorldTimerManager().SetTimer(TimerHandlePowerUpTick, this, &ASPowerUpActor::OnTickPowerUp, PowerUpInterval, true);
+	}
+	else 
+	{
+		OnTickPowerUp();
+	}
 }
 
 // Called every frame

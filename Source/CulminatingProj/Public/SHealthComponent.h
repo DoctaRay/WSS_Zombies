@@ -25,6 +25,8 @@ protected:
 	UPROPERTY(BlueprintReadOnly, Category = "Health Component")
 	float Health;
 
+	bool bIsDead;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Component")
 	float DefaultHealth;
 
@@ -32,10 +34,17 @@ protected:
 	UFUNCTION()
 	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
+
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(BlueprintAssignable, Category = "Events")
 	FOnHealthChangedSignature OnHealthChanged;
+
+	// Const to tell compiler and other devs that variables cannot be changed within this function
+	float GetHealth() const;
+
+	UFUNCTION(BlueprintCallable, Category = "Health Component")
+	void Heal(float HealAmount);
 };

@@ -8,6 +8,10 @@
 #include "NavigationSystem/Public/NavigationPath.h"
 #include "GameFramework/Character.h"
 #include "SHealthComponent.h"
+#include "DrawDebugHelpers.h"
+#include "SCharacter.h"
+#include "Components/SphereComponent.h"
+#include "Sound/SoundCue.h"
 
 // Sets default values
 ASTrackerBot::ASTrackerBot()
@@ -23,13 +27,50 @@ ASTrackerBot::ASTrackerBot()
 	OwningHealthComp = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 	OwningHealthComp->OnHealthChanged.AddDynamic(this, &ASTrackerBot::HandleTakeDamage);
 
+	// To check if TrackerBot is close to player
+	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
+	SphereComp->SetSphereRadius(200);
+	SphereComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	SphereComp->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
+	SphereComp->SetupAttachment(RootComponent);
+
+	ExplosionDamage = 40;
+	ExplosionRadius = 200;
+
 }
 
 // Called when the game starts or when spawned
 void ASTrackerBot::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//OnActorBeginOverlap.AddDynamic(this)
 	
+}
+
+void ASTrackerBot::SelfDestruct()
+{
+	if (bExploded)
+	{
+		return;	
+	}
+
+	bExploded = true;
+
+	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, GetActorLocation());
+
+	// Apply damage to surroundings upon death
+	TArray<AActor*> IgnoredActors;
+	IgnoredActors.Add(this);
+
+	UGameplayStatics::ApplyRadialDamage(this, ExplosionDamage, GetActorLocation(), ExplosionRadius, nullptr, IgnoredActors, this, GetInstigatorController(), true);
+
+	UGameplayStatics::PlaySoundAtLocation(this, ExplodeSound, GetActorLocation());
+
+	DrawDebugSphere(GetWorld(), GetActorLocation(), ExplosionRadius, 12, FColor::Blue, false, 2.0f, 0, 1.0f);
+
+
+	Destroy();
 }
 
 /* TODO Deprecated function. Should convert to latest version */
@@ -54,8 +95,49 @@ void ASTrackerBot::HandleTakeDamage(USHealthComponent* OwningHealthComp, float H
 	// Explode on death
 
 	// @TODO: Pulse the material on hit
+	if (MatInst == nullptr)
+	{
+		MatInst = MeshComp->CreateAndSetMaterialInstanceDynamicFromMaterial(0, MeshComp->GetMaterial(0));
+	}
+
+	if (MatInst)
+	{
+		//value of parameter in M_TrackerBot BP
+		MatInst->SetScalarParameterValue("LastTimeTakenDamage", GetWorld()->TimeSeconds);	
+	}
 
 	UE_LOG(LogTemp, Log, TEXT("Health %s of %s"), *FString::SanitizeFloat(Health), *GetName());
+
+	if (Health <= 0.0f)
+	{
+		SelfDestruct();
+	}
+
+}
+
+void ASTrackerBot::NotifyActorBeginOverlap(AActor* OtherActor)
+{
+	Super::NotifyActorBeginOverlap(OtherActor);
+
+	if (!bStartedSelfDestruction)
+	{
+		ASCharacter* PlayerPawn = Cast<ASCharacter>(OtherActor);
+		if (PlayerPawn)
+		{
+			//Start self-destruction timer
+			GetWorldTimerManager().SetTimer(TimerHandleSelfDamage, this, &ASTrackerBot::SelfDamage, 0.5f, true, 0.0f);
+
+			bStartedSelfDestruction = true;
+
+			UGameplayStatics::SpawnSoundAttached(SelfDestructSound, RootComponent);
+		}
+	}
+	
+}
+
+void ASTrackerBot::SelfDamage()
+{
+	UGameplayStatics::ApplyDamage(this, 20, GetInstigatorController(), this, nullptr);
 }
 
 // Called every frame
