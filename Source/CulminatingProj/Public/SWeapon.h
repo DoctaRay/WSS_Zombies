@@ -10,6 +10,8 @@ class USkeletalMeshComponent;
 class UDamageType;
 class UParticleSystem;
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnAmmoUsed, float, AmmoCount);
+
 UCLASS()
 class CULMINATINGPROJ_API ASWeapon : public AActor
 {
@@ -51,6 +53,7 @@ protected:
 
 	float ActualDamage;
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -58,4 +61,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	void Fire();
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	float AmmoCount;
+
+	UPROPERTY(BlueprintAssignable, Category = "Weapon")
+	FOnAmmoUsed OnAmmoUsed;
 };

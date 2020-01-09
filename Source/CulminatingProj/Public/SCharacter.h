@@ -40,6 +40,8 @@ protected:
 
 	void EndFire();
 
+	void SwitchWeapon();
+
 	UFUNCTION()
 	void OnHealthChanged(USHealthComponent* OwningHealthComp, float Health, float HealthChanged, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
@@ -56,6 +58,8 @@ protected:
 
 	bool bWantsToFire = false;
 
+	bool bIsPrimaryWeapon;
+
 	UPROPERTY(BlueprintReadOnly, Category = "Player")
 	bool bDied;
 
@@ -68,10 +72,15 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Player", meta = (ClampMin = 0.1, ClampMax = 100))
 	float ZoomInterpSpeed;
 
-	ASWeapon* CurrentWeapon;
+	ASWeapon* PrimaryWeapon;
+
+	ASWeapon* SecondaryWeapon;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Player")
 	TSubclassOf<ASWeapon> StarterWeaponClass;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	TSubclassOf<ASWeapon> EndWeaponClass;
 
 
 public:	

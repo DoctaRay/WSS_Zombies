@@ -44,12 +44,22 @@ void ASCharacter::BeginPlay()
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
-	CurrentWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
-	if (CurrentWeapon)
+	PrimaryWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+	SecondaryWeapon = GetWorld()->SpawnActor<ASWeapon>(EndWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+	
+	
+	if (PrimaryWeapon && SecondaryWeapon)
 	{
 		//attach to weapon socket (CPP Version of previous Blueprint Code)
-		CurrentWeapon->SetOwner(this);
-		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+		PrimaryWeapon->SetOwner(this);
+		PrimaryWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+		SecondaryWeapon->SetOwner(this);
+		SecondaryWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+		
+		SecondaryWeapon->SetActorHiddenInGame(true);
+		
+		bIsPrimaryWeapon = true;
+
 	}
 
 	HealthComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
@@ -95,6 +105,43 @@ void ASCharacter::EndFire()
 	bWantsToFire = false;
 }
 
+void ASCharacter::SwitchWeapon()
+{	
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	if (bIsPrimaryWeapon)
+	{
+		if (SecondaryWeapon) 
+		{
+			//attach to weapon socket (CPP Version of previous Blueprint Code)
+			//PrimaryWeapon->Destroy();
+			PrimaryWeapon->SetActorHiddenInGame(true);
+			SecondaryWeapon->SetActorHiddenInGame(false);
+			//SecondaryWeapon = GetWorld()->SpawnActor<ASWeapon>(EndWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+			//SecondaryWeapon->SetOwner(this);
+			//SecondaryWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+			bIsPrimaryWeapon = false;
+		}
+	}
+	else 
+	{
+		//PrimaryWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+		if (PrimaryWeapon)
+		{
+			//SecondaryWeapon->Destroy();
+			SecondaryWeapon->SetActorHiddenInGame(true);
+			PrimaryWeapon->SetActorHiddenInGame(false);
+			//attach to weapon socket (CPP Version of previous Blueprint Code)
+			//PrimaryWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+			//PrimaryWeapon->SetOwner(this);
+			//PrimaryWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+			bIsPrimaryWeapon = true;
+		}
+
+	}
+}
+
 void ASCharacter::OnHealthChanged(USHealthComponent* HealthComp, float Health, float HealthChanged, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser)
 {
 	if (Health <= 0.0f && !bDied)
@@ -122,9 +169,14 @@ void ASCharacter::Tick(float DeltaTime)
 
 	CameraComp->SetFieldOfView(NewFOV);
 
-	if (bWantsToFire && CurrentWeapon)
+	if (bWantsToFire && bIsPrimaryWeapon)
 	{
-		CurrentWeapon->Fire();
+		PrimaryWeapon->Fire();
+	}
+
+	if (bWantsToFire && !bIsPrimaryWeapon)
+	{
+		SecondaryWeapon->Fire();
 	}
 
 }
@@ -149,6 +201,8 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &ASCharacter::BeginAim);
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &ASCharacter::EndAim);
+
+	PlayerInputComponent->BindAction("WeaponSwitch", IE_Released, this, &ASCharacter::SwitchWeapon);
 
 }
 

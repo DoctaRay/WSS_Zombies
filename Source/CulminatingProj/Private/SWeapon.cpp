@@ -28,6 +28,8 @@ ASWeapon::ASWeapon()
 
 	BaseDamage = 20.f;
 
+	AmmoCount = 30;
+
 }
 
 // Called when the game starts or when spawned
@@ -39,6 +41,9 @@ void ASWeapon::BeginPlay()
 
 void ASWeapon::Fire()
 {
+	if (AmmoCount == 0) {
+		return;
+	}
 	AActor* MyOwner = GetOwner();
 	if (MyOwner) {
 		FVector EyeLocation;
@@ -94,7 +99,9 @@ void ASWeapon::Fire()
 			
 		}
 
-	FireEffects(EyeLocation, TraceEnd);
+		FireEffects(EyeLocation, TraceEnd);
+		AmmoCount--;
+		OnAmmoUsed.Broadcast(AmmoCount);
 
 	}
 }
