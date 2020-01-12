@@ -55,9 +55,16 @@ void ASWeapon::Fire()
 
 		UE_LOG(LogTemp, Warning, TEXT("MyOwner(): %s"), *(MyOwner->GetName()));
 		MyOwner->GetActorEyesViewPoint(EyeLocation, EyeRotation);
+
+		FVector MuzzleLocation = MeshComp->GetSocketLocation(MuzzleSocketName);
 		
 		FVector ShotDirection = EyeRotation.Vector();
 		FVector TraceEnd = EyeLocation + (ShotDirection * 10000);
+
+		FActorSpawnParameters SpawnParams;
+        SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+        GetWorld()->SpawnActor<AActor>(Projectile_Class, MuzzleLocation, EyeRotation, SpawnParams);
 
 		FCollisionQueryParams QueryParams;
 		QueryParams.AddIgnoredActor(MyOwner);
@@ -67,7 +74,7 @@ void ASWeapon::Fire()
 
 		FHitResult Hit;
 
-		if (GetWorld()->LineTraceSingleByChannel(OUT Hit, EyeLocation, TraceEnd, COLLISION_WEAPON, QueryParams))
+		if (GetWorld()->LineTraceSingleByChannel(OUT Hit, MuzzleLocation, TraceEnd, COLLISION_WEAPON, QueryParams))
 		{
 			//Blocking hit, process damage
 			AActor* HitActor = Hit.GetActor();
