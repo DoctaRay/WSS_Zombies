@@ -18,4 +18,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "PlayerState")
 	void AddScore(float ScoreDelta);
+
+	UFUNCTION(BlueprintCallable, Category = "PlayerState")
+	float GetScore();
 };

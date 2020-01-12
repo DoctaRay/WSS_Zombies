@@ -7,3 +7,8 @@ void ASPlayerState::AddScore(float ScoreDelta)
 {
     Score += ScoreDelta;
 }
+
+float ASPlayerState::GetScore()
+{
+    return Score;
+}
