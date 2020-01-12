@@ -142,6 +142,18 @@ void ASCharacter::SwitchWeapon()
 	}
 }
 
+void ASCharacter::Reload()
+{
+	if (bIsPrimaryWeapon)
+	{
+		PrimaryWeapon->Reload();
+	}
+	else 
+	{
+		SecondaryWeapon->Reload();
+	}
+}
+
 void ASCharacter::OnHealthChanged(USHealthComponent* HealthComp, float Health, float HealthChanged, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser)
 {
 	if (Health <= 0.0f && !bDied)
@@ -203,6 +215,8 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &ASCharacter::EndAim);
 
 	PlayerInputComponent->BindAction("WeaponSwitch", IE_Released, this, &ASCharacter::SwitchWeapon);
+
+	PlayerInputComponent->BindAction("Reload", IE_Released, this, &ASCharacter::Reload);
 
 }
 

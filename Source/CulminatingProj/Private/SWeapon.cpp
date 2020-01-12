@@ -9,8 +9,8 @@
 #include "CulminatingProj.h"
 
 
-static int32 DebugWeaponDrawing = 0;
-FAutoConsoleVariableRef CVARDebugWeaponDrawing(TEXT("COOP.DebugWeapons"), DebugWeaponDrawing, TEXT("Draw Debug Lines for Weapons"), ECVF_Cheat);
+//static int32 DebugWeaponDrawing = 0;
+//FAutoConsoleVariableRef CVARDebugWeaponDrawing(TEXT("COOP.DebugWeapons"), DebugWeaponDrawing, TEXT("Draw Debug Lines for Weapons"), ECVF_Cheat);
 
 #define OUT 
 
@@ -29,6 +29,10 @@ ASWeapon::ASWeapon()
 	BaseDamage = 20.f;
 
 	AmmoCount = 30;
+
+	AmmoMax = 330;
+
+	OriginalMax = AmmoMax;
 
 }
 
@@ -104,6 +108,17 @@ void ASWeapon::Fire()
 		OnAmmoUsed.Broadcast(AmmoCount);
 
 	}
+}
+
+void ASWeapon::Reload()
+{
+	AmmoMax -= 30 - AmmoCount;
+	AmmoCount = 30;
+}
+
+void ASWeapon::StockUp()
+{
+	AmmoMax = OriginalMax;
 }
 
 // Called every frame

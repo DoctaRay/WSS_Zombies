@@ -25,8 +25,6 @@ protected:
 	UPROPERTY(BlueprintReadOnly, Category = "Health Component")
 	float Health;
 
-	bool bIsDead;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health Component")
 	float DefaultHealth;
 
@@ -41,6 +39,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable, Category = "Events")
 	FOnHealthChangedSignature OnHealthChanged;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Health Component")
+	bool bIsDead;
 
 	// Const to tell compiler and other devs that variables cannot be changed within this function
 	float GetHealth() const;

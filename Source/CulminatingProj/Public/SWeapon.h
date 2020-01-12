@@ -53,16 +53,27 @@ protected:
 
 	float ActualDamage;
 
+	float OriginalMax;
+
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
-	void Fire();
+	virtual void Fire();
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	void Reload();
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	void StockUp();
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
 	float AmmoCount;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	float AmmoMax;
 
 	UPROPERTY(BlueprintAssignable, Category = "Weapon")
 	FOnAmmoUsed OnAmmoUsed;

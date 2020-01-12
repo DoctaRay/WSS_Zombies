@@ -6,6 +6,9 @@
 #include "Components/DecalComponent.h"
 #include "TimerManager.h"
 #include "SPowerUpActor.h"
+#include "SZombie.h"
+#include "STrackerBot.h"
+
 
 // Sets default values
 ASPickupActor::ASPickupActor()
@@ -61,7 +64,10 @@ void ASPickupActor::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	Super::NotifyActorBeginOverlap(OtherActor);
 
-	if (PowerUpInst)
+	ASZombie* isZombie = Cast<ASZombie>(OtherActor);
+	ASTrackerBot* isTrackerBot = Cast<ASTrackerBot>(OtherActor);
+
+	if (PowerUpInst && (!isZombie && !isTrackerBot))
 	{
 		PowerUpInst->ActivatePowerUp();
 		PowerUpInst = nullptr;

@@ -42,6 +42,8 @@ protected:
 
 	void SwitchWeapon();
 
+	void Reload();
+
 	UFUNCTION()
 	void OnHealthChanged(USHealthComponent* OwningHealthComp, float Health, float HealthChanged, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
@@ -57,11 +59,6 @@ protected:
 	bool bWantsToZoom;
 
 	bool bWantsToFire = false;
-
-	bool bIsPrimaryWeapon;
-
-	UPROPERTY(BlueprintReadOnly, Category = "Player")
-	bool bDied;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Player")
 	float ZoomedFOV;
@@ -92,6 +89,10 @@ public:
 
 	virtual FVector GetPawnViewLocation() const override;
 
+	UPROPERTY(BlueprintReadOnly, Category = "Player")
+	bool bIsPrimaryWeapon;
 
+	UPROPERTY(BlueprintReadOnly, Category = "Player")
+	bool bDied;
 
 };

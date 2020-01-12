@@ -12,6 +12,7 @@
 #include "SCharacter.h"
 #include "Components/SphereComponent.h"
 #include "Sound/SoundCue.h"
+#include "SZombie.h"
 
 // Sets default values
 ASTrackerBot::ASTrackerBot()
@@ -124,12 +125,16 @@ void ASTrackerBot::NotifyActorBeginOverlap(AActor* OtherActor)
 		ASCharacter* PlayerPawn = Cast<ASCharacter>(OtherActor);
 		if (PlayerPawn)
 		{
-			//Start self-destruction timer
-			GetWorldTimerManager().SetTimer(TimerHandleSelfDamage, this, &ASTrackerBot::SelfDamage, 0.5f, true, 0.0f);
+			ASZombie* ZombiePawn = Cast<ASZombie>(OtherActor);
+			if (!ZombiePawn)
+			{
+				//Start self-destruction timer
+				GetWorldTimerManager().SetTimer(TimerHandleSelfDamage, this, &ASTrackerBot::SelfDamage, 0.5f, true, 0.0f);
 
-			bStartedSelfDestruction = true;
+				bStartedSelfDestruction = true;
 
-			UGameplayStatics::SpawnSoundAttached(SelfDestructSound, RootComponent);
+				UGameplayStatics::SpawnSoundAttached(SelfDestructSound, RootComponent);
+			}
 		}
 	}
 	
