@@ -9,4 +9,4 @@
 
 Developed with Unreal Engine 4 with C++ (and a couple of Blueprints).
 
-AI tracking from enemies, particles, high scores, sound effects, guns, and of course amazing graphics courtesy of UE4 :)
+AI tracking from enemies, self-made map, particles, high scores, sound effects, guns, and of course amazing graphics courtesy of UE4 :)
