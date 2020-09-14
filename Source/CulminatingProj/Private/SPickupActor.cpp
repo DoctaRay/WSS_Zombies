@@ -16,7 +16,6 @@ ASPickupActor::ASPickupActor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
-	// Set through CPP so we don't have to add sphere and decal comps all the time
 	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	SphereComp->SetSphereRadius(75.0f);
 	RootComponent = SphereComp;
@@ -35,7 +34,6 @@ void ASPickupActor::BeginPlay()
 	Super::BeginPlay();
 
 	Respawn();
-	
 }
 
 // Called every frame
@@ -49,7 +47,7 @@ void ASPickupActor::Respawn()
 {
 	if (PowerUpClass == nullptr)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Powerup %s is nullptr. Please update in BP"), *GetName());
+		UE_LOG(LogTemp, Warning, TEXT("Powerup %s is nullptr. Update in BP"), *GetName());
 		return;
 	}
 
@@ -67,6 +65,7 @@ void ASPickupActor::NotifyActorBeginOverlap(AActor* OtherActor)
 	ASZombie* isZombie = Cast<ASZombie>(OtherActor);
 	ASTrackerBot* isTrackerBot = Cast<ASTrackerBot>(OtherActor);
 
+	//makes sure only player can use powerups 
 	if (PowerUpInst && (!isZombie && !isTrackerBot))
 	{
 		PowerUpInst->ActivatePowerUp();

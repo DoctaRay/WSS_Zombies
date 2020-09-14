@@ -1,0 +1,817 @@
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset" 0
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.uasset" 1
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset" 2
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Fire_Rifle_Hip.uasset" 3
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Aim_Space_Ironsights.uasset" 4
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset" 5
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.uasset" 6
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Prone_Fire_1.uasset" 7
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Death_1.uasset" 8
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset" 9
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Death_Ironsights_2.uasset" 10
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Prone_Death_2.uasset" 11
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Sprint_Fwd_Rifle.uasset" 12
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Reload_Rifle_Ironsights.uasset" 13
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/Zombie_Idol.uasset" 14
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Jog_Bwd_Rifle.uasset" 15
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Jog_Fwd_Rifle.uasset" 16
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Jog_Lt_Rifle.uasset" 17
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Jog_Rt_Rifle.uasset" 18
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Jog.uasset" 19
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.uasset" 20
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset" 21
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.uasset" 22
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Stand_To_Prone.uasset" 23
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Aim_Space_Hip.uasset" 24
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Reload_Shotgun_Ironsights.uasset" 25
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Death_2.uasset" 26
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Jump_From_Stand_Ironsights.uasset" 27
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Fire_Shotgun_Hip.uasset" 28
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset" 29
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Death_Ironsights_1.uasset" 30
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Prone_Reload_Shotgun.uasset" 31
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Prone_Idle.uasset" 32
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Idle_Rifle_Ironsights.uasset" 33
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Prone_To_Stand.uasset" 34
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Fire_Shotgun_Ironsights.uasset" 35
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Prone_Fire_2.uasset" 36
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Idle_Pistol.uasset" 37
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Equip_Rifle_Standing.uasset" 38
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Reload_Shotgun_Hip.uasset" 39
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset" 40
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Hit_React_4.uasset" 41
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Reload_Pistol.uasset" 42
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Prone_Death_1.uasset" 43
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Prone_Reload_Rifle.uasset" 44
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset" 45
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Death_3.uasset" 46
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Idle_Rifle_Hip.uasset" 47
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Jump_From_Jog.uasset" 48
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Jump_From_Stand.uasset" 49
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset" 50
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset" 51
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset" 52
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset" 53
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/BS_CrouchWalk.uasset" 54
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/BS_Jog.uasset" 55
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" 56
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 57
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_AO.uasset" 58
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 59
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 60
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 61
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 62
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 63
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 64
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset" 65
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 66
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 67
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 68
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 69
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset" 70
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset" 71
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset" 72
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_Body.uasset" 73
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset" 74
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset" 75
+"D:/Unreal Projs/CulminatingProj/Content/Core/PhysMat_FleshDefault.uasset" 76
+"D:/Unreal Projs/CulminatingProj/Content/Core/PhysMat_FleshVulnerable.uasset" 77
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset" 78
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset" 79
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Ue4ASP_Character.uasset" 80
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Idol.uasset" 81
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Zombie_jog.uasset" 82
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Zombie_Idol.uasset" 83
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Mesh/Zombie_Skeleton.uasset" 84
+"D:/Unreal Projs/CulminatingProj/Content/UI/Controls.uasset" 85
+"D:/Unreal Projs/CulminatingProj/Content/UI/Options.uasset" 86
+"D:/Unreal Projs/CulminatingProj/Content/Materials/Master_Simple.uasset" 87
+"D:/Unreal Projs/CulminatingProj/Content/Materials/Simple_CHrome2.uasset" 88
+"D:/Unreal Projs/CulminatingProj/Content/Materials/Simple_Plastic_Dark.uasset" 89
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/Dummy.uasset" 90
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/CameraShake_RifleFire.uasset" 91
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BloodImpact/clouds_dust_detail_01.uasset" 92
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BloodImpact/M_blood_cloud_01.uasset" 93
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BloodImpact/T_BloodSplatter_Frames01.uasset" 94
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BloodImpact/M_blood_splash_01.uasset" 95
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BloodImpact/T_BloodSplat_03_SubUV.uasset" 96
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BloodImpact/M_blood_splash_03.uasset" 97
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BloodImpact/P_blood_splash_02.uasset" 98
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/GenericImpact/Flare_02.uasset" 99
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/GenericImpact/M_LensFlare_02.uasset" 100
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/GenericImpact/T_SparkCore_2X2.uasset" 101
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/GenericImpact/M_spark_subUV.uasset" 102
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/GenericImpact/P_RifleImpact.uasset" 103
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Muzzle/MuzzleSmokeOne_1024_11x11.uasset" 104
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Muzzle/MuzzleFlash_Master.uasset" 105
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Muzzle/MuzzleFlash_Master_Inst.uasset" 106
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Muzzle/MuzzleTwo_2048_6x6.uasset" 107
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Muzzle/MuzzleFlash_Master_Inst_2.uasset" 108
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Muzzle/P_Muzzle_Large.uasset" 109
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/MagGun_01_N.uasset" 110
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/M_Weapon01.uasset" 111
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/Launcher_01_N.uasset" 112
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/MI_Launcher01.uasset" 113
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/Launcher_02_N.uasset" 114
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/MI_Launcher02.uasset" 115
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/Launcher_Skeleton.uasset" 116
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/Launcher.uasset" 117
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/Pistol.uasset" 118
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_EnvQueryContext_BotSpawns.uasset" 119
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 120
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Jump_From_Jog_Zomb.uasset" 121
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Jump_From_Stand_Zomb.uasset" 122
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Jog_Bwd_Zombie.uasset" 123
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Jog_Fwd_Zombie.uasset" 124
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Jog_Lt_Zombie.uasset" 125
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Jog_Rt_Zombie.uasset" 126
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/UE4_Zombie_Jog.uasset" 127
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Zombie_Animation/Zombie_Anim.uasset" 128
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/BB_AdvancedAI.uasset" 129
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 130
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 131
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 132
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 133
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 134
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 135
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Burst_M.uasset" 136
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_Burst.uasset" 137
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 138
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 139
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 140
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 141
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 142
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 143
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 144
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 145
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/P_Explosion.uasset" 146
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/BP_Ball.uasset" 147
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_BallShooter.uasset" 148
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/ShellEject/M_ShellEjectMetal.uasset" 149
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/ShellEject/SM_ShellEject.uasset" 150
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_Bullet.uasset" 151
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/Crosshairs/T_Crosshair_Horizontal_M.uasset" 152
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/Crosshairs/T_Crosshair_Scanline_M.uasset" 153
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline.uasset" 154
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/MI_Rifle01.uasset" 155
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/MagGun_02_N.uasset" 156
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/MI_Rifle02.uasset" 157
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/SK_Rifle_Skeleton.uasset" 158
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/SK_Rifle.uasset" 159
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/Rifle.uasset" 160
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/ArrayOfActor.uasset" 161
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/ArrayOfSwitch.uasset" 162
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_SceneNode.uasset" 163
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_Switch.uasset" 164
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_SceneRoot.uasset" 165
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/FBXImporterUtils.uasset" 166
+"D:/Unreal Projs/CulminatingProj/Content/UI/AmmoWidget.uasset" 167
+"D:/Unreal Projs/CulminatingProj/Content/UI/Crosshair.uasset" 168
+"D:/Unreal Projs/CulminatingProj/Content/UI/Westdale_Crest.uasset" 169
+"D:/Unreal Projs/CulminatingProj/Content/UI/M_HealthIndicator.uasset" 170
+"D:/Unreal Projs/CulminatingProj/Content/UI/HealthIndicator_BP.uasset" 171
+"D:/Unreal Projs/CulminatingProj/Content/UI/PauseMenu.uasset" 172
+"D:/Unreal Projs/CulminatingProj/Content/Player.uasset" 173
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/EnvQueryContextAllPlayers.uasset" 174
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/EQS_FindMoveTo.uasset" 175
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/BT_AdvancedAI.uasset" 176
+"../../../Engine/Content/EditorMaterials/WidgetMaterial_X.uasset" 177
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/UE4_Mannequin/Mesh/Zombie_Mannequin.uasset" 178
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/BP_Zombie.uasset" 179
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/M_TrackerBot.uasset" 180
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/SM_TrackerBot.uasset" 181
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/DamageAttenuation.uasset" 182
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/Explosion01.uasset" 183
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/ExplosionSound.uasset" 184
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/ball_roll_04_loop.uasset" 185
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/RollCue.uasset" 186
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/DroneTracker_explodewarning.uasset" 187
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/SelfDestructSound.uasset" 188
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/T_Burst_M.uasset" 189
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/M_Burst.uasset" 190
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/T_Explosion_SubUV.uasset" 191
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/M_explosion_subUV.uasset" 192
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/m_flare_01.uasset" 193
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/M_radial_ramp.uasset" 194
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/T_Smoke_SubUV.uasset" 195
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/T_Smoke_Tiled_D.uasset" 196
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/M_smoke_subUV.uasset" 197
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/Explosion/P_Explosion.uasset" 198
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_TrackerBot.uasset" 199
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/EQC_FindActors.uasset" 200
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/EQS_FindSpawnLocation.uasset" 201
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_GameMode.uasset" 202
+"D:/Unreal Projs/CulminatingProj/Content/Images/T_CircleMask2.uasset" 203
+"D:/Unreal Projs/CulminatingProj/Content/Images/T_CircleMask.uasset" 204
+"D:/Unreal Projs/CulminatingProj/Content/Images/Material.uasset" 205
+"../../../Engine/Content/EngineMeshes/Humanoid.uasset" 206
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 207
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin_Anim.uasset" 208
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Stand_Relaxed_Idle_v2.uasset" 209
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Stand_Relaxed_Fgt_v4.uasset" 210
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Run_F.uasset" 211
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Walk_F.uasset" 212
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Stand_Relaxed_Death_B.uasset" 213
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_CrouchWalk_F.uasset" 214
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Run_F_to_Stand_Relaxed_RU.uasset" 215
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Jog_F.uasset" 216
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Crouch_Idle_V2.uasset" 217
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Stand_Relaxed_Fgt_v1.uasset" 218
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Jog_F_to_Stand_Relaxed_RU.uasset" 219
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/Root_Motion/Walk_13_Power_Walk_Loop.uasset" 220
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/Root_Motion/Walk_08_Listen_Music_Loop.uasset" 221
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/Root_Motion/Walk_04_Texting_Loop.uasset" 222
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/Root_Motion/Walk_06_Look_Around_Loop.uasset" 223
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/Root_Motion/Walk_02_Cheerful_Loop.uasset" 224
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Scared/Root_Motion/SCR_Walk_Scared_Fwd_Look_Left_Loop.uasset" 225
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Scared/Root_Motion/SCR_Walk_Scared_Fwd_Look_Right_Loop.uasset" 226
+"D:/Unreal Projs/CulminatingProj/Content/Props/Fan_Blades_01_Skeleton.uasset" 227
+"D:/Unreal Projs/CulminatingProj/Content/Props/fanspin.uasset" 228
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 229
+"D:/Unreal Projs/CulminatingProj/Content/Props/Fan_01_PhysicsAsset.uasset" 230
+"D:/Unreal Projs/CulminatingProj/Content/Props/Fan_01_Skeleton.uasset" 231
+"D:/Unreal Projs/CulminatingProj/Content/Props/Fan_01.uasset" 232
+"D:/Unreal Projs/CulminatingProj/Content/Props/Fan_Blades_01_PhysicsAsset.uasset" 233
+"D:/Unreal Projs/CulminatingProj/Content/Props/Fan_Blades_01.uasset" 234
+"D:/Unreal Projs/CulminatingProj/Content/Props/BaseAnimation.uasset" 235
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/MI_Pistol.uasset" 236
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/SM_WP_GLK19_pistol.uasset" 237
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/MI_Pistol_Inst.uasset" 238
+"D:/Unreal Projs/CulminatingProj/Content/Weapons/T_Camo_sharp.uasset" 239
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/powerdown_01.uasset" 240
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/DroneTracker_idle.uasset" 241
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/DroneTracker_spotted.uasset" 242
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/Pickup_powerup.uasset" 243
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/respawn_01.uasset" 244
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/ball_roll_02_loop.uasset" 245
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/powerup_loop_02.uasset" 246
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/ball_roll_01g.uasset" 247
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/Pickup_weapon.uasset" 248
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/powerdown_02.uasset" 249
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/Pickup_ammo.uasset" 250
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/powerup_loop_01.uasset" 251
+"D:/Unreal Projs/CulminatingProj/Content/SoundFX/ball_roll_03_loop.uasset" 252
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/UE4_Mannequin_Skeleton_BlendSpace.uasset" 253
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/Zombie_jog.uasset" 254
+"D:/Unreal Projs/CulminatingProj/Content/AdvancedAI/UE4_Mannequin_Skeleton_BlendSpace1D.uasset" 255
+"D:/Unreal Projs/CulminatingProj/Content/Effects/gold_ore_effect.uasset" 256
+"D:/Unreal Projs/CulminatingProj/Content/Effects/S_SandSwirl.uasset" 257
+"D:/Unreal Projs/CulminatingProj/Content/Effects/P_gold_ore_appearance.uasset" 258
+"D:/Unreal Projs/CulminatingProj/Content/Effects/P_gold_ore_lost.uasset" 259
+"D:/Unreal Projs/CulminatingProj/Content/Effects/clouds_dust_detail_01.uasset" 260
+"D:/Unreal Projs/CulminatingProj/Content/Effects/M_wind_swirl_02.uasset" 261
+"D:/Unreal Projs/CulminatingProj/Content/Effects/T_Smoke2_Tile.uasset" 262
+"D:/Unreal Projs/CulminatingProj/Content/Effects/M_Volumetric_Streaks.uasset" 263
+"D:/Unreal Projs/CulminatingProj/Content/Effects/T_Fire_tile.uasset" 264
+"D:/Unreal Projs/CulminatingProj/Content/Effects/P_gold_ore_aura.uasset" 265
+"D:/Unreal Projs/CulminatingProj/Content/Effects/P_gold_ore_received.uasset" 266
+"D:/Unreal Projs/CulminatingProj/Content/Effects/gold_ore_circle2.uasset" 267
+"D:/Unreal Projs/CulminatingProj/Content/Effects/T_MeshFire_Mask.uasset" 268
+"D:/Unreal Projs/CulminatingProj/Content/Effects/m_flare_03.uasset" 269
+"D:/Unreal Projs/CulminatingProj/Content/Effects/round_mask.uasset" 270
+"D:/Unreal Projs/CulminatingProj/Content/Effects/sunflare.uasset" 271
+"D:/Unreal Projs/CulminatingProj/Content/Effects/SM_plane_pivot_down.uasset" 272
+"D:/Unreal Projs/CulminatingProj/Content/Effects/M_single_ray_01.uasset" 273
+"D:/Unreal Projs/CulminatingProj/Content/Effects/T_Flame_Tile.uasset" 274
+"D:/Unreal Projs/CulminatingProj/Content/Effects/Coin2.uasset" 275
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 276
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 277
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Explosion_Cue.uasset" 278
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 279
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Glass.uasset" 280
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Door_M.uasset" 281
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Door_N.uasset" 282
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_Door.uasset" 283
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Door.uasset" 284
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 285
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 286
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 287
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Chair_M.uasset" 288
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Chair_N.uasset" 289
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_Chair.uasset" 290
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Couch.uasset" 291
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Shelf_M.uasset" 292
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Shelf_N.uasset" 293
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_Shelf.uasset" 294
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Shelf.uasset" 295
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 296
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 297
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_RockMesh_M.uasset" 298
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_RockMesh_N.uasset" 299
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_Rock.uasset" 300
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Rock.uasset" 301
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Basic_Floor.uasset" 302
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Basic_Wall.uasset" 303
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Stairs.uasset" 304
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Bush_D.uasset" 305
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Bush_N.uasset" 306
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_Bush.uasset" 307
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Bush.uasset" 308
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 309
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 310
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Tube.uasset" 311
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 312
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 313
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Trim.uasset" 314
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Plane.uasset" 315
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 316
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 317
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 318
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Pipe.uasset" 319
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Cone.uasset" 320
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 321
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 322
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 323
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Torus.uasset" 324
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Wall_500x500.uasset" 325
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 326
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Explosion02.uasset" 327
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Starter_Wind06.uasset" 328
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Starter_Birds01.uasset" 329
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Fire_Sparks01.uasset" 330
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Smoke01.uasset" 331
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Collapse01.uasset" 332
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Light02.uasset" 333
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Light02_Cue.uasset" 334
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Fire01.uasset" 335
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Light01_Cue.uasset" 336
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Starter_Wind05.uasset" 337
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Steam01.uasset" 338
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Starter_Music01.uasset" 339
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Explosion01.uasset" 340
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Light01.uasset" 341
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Collapse02.uasset" 342
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BasicTracer/Beam.uasset" 343
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BasicTracer/M_Beam.uasset" 344
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/BasicTracer/P_SmokeTrail.uasset" 345
+"D:/Unreal Projs/CulminatingProj/Content/WeaponEffects/ShellEject/P_Rifle_ShellEject.uasset" 346
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 347
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 348
+"../../../Engine/Content/BasicShapes/Cone.uasset" 349
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 350
+"../../../Engine/Content/BasicShapes/Plane.uasset" 351
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 352
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 353
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 354
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 355
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 356
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 357
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 358
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 359
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 360
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 361
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 362
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 363
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 364
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 365
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 366
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 367
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 368
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 369
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 370
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 371
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 372
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 373
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 374
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 375
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 376
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 377
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 378
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 379
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 380
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 381
+"../../../Engine/Content/EditorResources/S_Note.uasset" 382
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 383
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 384
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 385
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 386
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 387
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 388
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 389
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 390
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 391
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 392
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 393
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 394
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 395
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 396
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 397
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 398
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 399
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 400
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 401
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 402
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 403
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 404
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 405
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 406
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 407
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 408
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 409
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 410
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 411
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 412
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 413
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 414
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 415
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 416
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 417
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 418
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 419
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 420
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 421
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 422
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 423
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 424
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 425
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 426
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 427
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 428
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 429
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 430
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 431
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 432
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 433
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 434
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 435
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 436
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 437
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 438
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 439
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 440
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 441
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 442
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 443
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 444
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 445
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 446
+"../../../Engine/Content/EngineResources/Black.uasset" 447
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 448
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 449
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 450
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 451
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 452
+"../../../Engine/Content/EngineSounds/Master.uasset" 453
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 454
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 455
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 456
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 457
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 458
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 459
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 460
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 461
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 462
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 463
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 464
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 465
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 466
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 467
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 468
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 469
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 470
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 471
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 472
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 473
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 474
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 475
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 476
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 477
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 478
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 479
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 480
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 481
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 482
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 483
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 484
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 485
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 486
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 487
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 488
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 489
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 490
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 491
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 492
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 493
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 494
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 495
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 496
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 497
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 498
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 499
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 500
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 501
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 502
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 503
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 504
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 505
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 506
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 507
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 508
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 509
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 510
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 511
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 512
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 513
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 514
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 515
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_EQSTestingPawn.uasset" 516
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 517
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 518
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 519
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 520
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 521
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 522
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 523
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 524
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 525
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sine_Remapped.uasset" 526
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/M_PowerUpLightFunction.uasset" 527
+"../../../Engine/Content/EngineMaterials/PhysMat_Rubber.uasset" 528
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/M_PowerUp.uasset" 529
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/MI_PowerupSpeed.uasset" 530
+"D:/Unreal Projs/CulminatingProj/Content/Images/SpeedIcon.uasset" 531
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_PowerUpSuperSpeed.uasset" 532
+"D:/Unreal Projs/CulminatingProj/Content/Images/T_CircleMask3.uasset" 533
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/M_PowerUpDecal.uasset" 534
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_Pickup.uasset" 535
+"../../../Engine/Content/VREditor/UI/KeyDiskMaterial.uasset" 536
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/Import/lambert1.uasset" 537
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/Import/AmmoMag.uasset" 538
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_PowerUpAmmoFill.uasset" 539
+"D:/Unreal Projs/CulminatingProj/Content/DeathCamera.uasset" 540
+"D:/Unreal Projs/CulminatingProj/Content/P_Map_BuiltData.uasset" 541
+"../../../Engine/Content/BasicShapes/Cube.uasset" 542
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 543
+"D:/Unreal Projs/CulminatingProj/Content/UI/MySaveGame.uasset" 544
+"D:/Unreal Projs/CulminatingProj/Content/UI/FinalScore.uasset" 545
+"D:/Unreal Projs/CulminatingProj/Content/P_Map.umap" 546
+"D:/Unreal Projs/CulminatingProj/Content/UI/82272739_2582517625209376_4983518839233839104_n.uasset" 547
+"D:/Unreal Projs/CulminatingProj/Content/UI/MainMenu.uasset" 548
+"D:/Unreal Projs/CulminatingProj/Content/MenuArea.umap" 549
+"D:/Unreal Projs/CulminatingProj/Content/UI/HighScore.uasset" 550
+"D:/Unreal Projs/CulminatingProj/Content/HighScoreMap.umap" 551
+"D:/Unreal Projs/CulminatingProj/Content/Meshes/MI_PowerUpHealth.uasset" 552
+"D:/Unreal Projs/CulminatingProj/Content/Images/HealthIcon.uasset" 553
+"D:/Unreal Projs/CulminatingProj/Content/Blueprints/BP_PowerUpHealthRegen.uasset" 554
+"D:/Unreal Projs/CulminatingProj/Content/PlayMap_BuiltData.uasset" 555
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 556
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 557
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 558
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_MacroVariation.uasset" 559
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 560
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 561
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 562
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 563
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 564
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 565
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 566
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 567
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 568
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 569
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 570
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 571
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 572
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 573
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Ground_Grass.uasset" 574
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Water_M.uasset" 575
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Water_N.uasset" 576
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Water_Ocean.uasset" 577
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Pillar_50x500.uasset" 578
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_AssetPlatform.uasset" 579
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 580
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Wall_400x300.uasset" 581
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Wall_400x400.uasset" 582
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 583
+"D:/Unreal Projs/CulminatingProj/Content/PlayMap.umap" 584
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset" 585
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset" 586
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Equip_Pistol_Standing.uasset" 587
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Fire_Rifle_Ironsights.uasset" 588
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Hit_React_1.uasset" 589
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Hit_React_2.uasset" 590
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Hit_React_3.uasset" 591
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset" 592
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset" 593
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Reload_Rifle_Hip.uasset" 594
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset" 595
+"../../../Engine/Content/TemplateResources/M_Template_Master.uasset" 596
+"../../../Engine/Content/TemplateResources/MI_Template_BaseGray_03_Metal.uasset" 597
+"D:/Unreal Projs/CulminatingProj/Content/AnimStarterPack/Showcase.umap" 598
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Conversations/Root_Motion/Convo_01_Low_Key_Loop.uasset" 599
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Conversations/Root_Motion/Convo_11_Listening_Loop.uasset" 600
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Crouch_Idle_V2_IPC.uasset" 601
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_CrouchWalk_F_IPC.uasset" 602
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Jog_F_IPC.uasset" 603
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Jog_F_to_Stand_Relaxed_RU_IPC.uasset" 604
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Run_F_IPC.uasset" 605
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Run_F_to_Stand_Relaxed_RU_IPC.uasset" 606
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Stand_Relaxed_Death_B_IPC.uasset" 607
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Stand_Relaxed_Fgt_v1_IPC.uasset" 608
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Stand_Relaxed_Fgt_v4_IPC.uasset" 609
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Stand_Relaxed_Idle_v2_IPC.uasset" 610
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Mobility_Pro/In_Place/MOB1_Walk_F_IPC.uasset" 611
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Scared/In_Place/SCR_Walk_Scared_Fwd_Look_Left_Loop_IP.uasset" 612
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Scared/In_Place/SCR_Walk_Scared_Fwd_Look_Right_Loop_IP.uasset" 613
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/In_Place/Walk_02_Cheerful_Loop_IP.uasset" 614
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/In_Place/Walk_04_Texting_Loop_IP.uasset" 615
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/In_Place/Walk_06_Look_Around_Loop_IP.uasset" 616
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/In_Place/Walk_08_Listen_Music_Loop_IP.uasset" 617
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Animation/Walks/In_Place/Walk_13_Power_Walk_Loop_IP.uasset" 618
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 619
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 620
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 621
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 622
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Textures/UE4_LOGO_CARD.uasset" 623
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 624
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 625
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 626
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 627
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Textures/UE4_Mannequin__normals.uasset" 628
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 629
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Textures/UE4_Mannequin_occlusion.uasset" 630
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/M_UE4Man_Body.uasset" 631
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Textures/UE4Man_Logo_N.uasset" 632
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Materials/M_UE4Man_ChestLogo.uasset" 633
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 634
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.uasset" 635
+"D:/Unreal Projs/CulminatingProj/Content/MCO_Mocap_Basics/Overview.umap" 636
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 637
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 638
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 639
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 640
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 641
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 642
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 643
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 644
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 645
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 646
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 647
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 648
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 649
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 650
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 651
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 652
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 653
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 654
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 655
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 656
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Maps/Advanced_Lighting.umap" 657
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Fire01_Cue.uasset" 658
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 659
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 660
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 661
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 662
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 663
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/P_Fire.uasset" 664
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 665
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Smoke01_Cue.uasset" 666
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/P_Smoke.uasset" 667
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 668
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 669
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Spark_Core.uasset" 670
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_Spark.uasset" 671
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/P_Sparks.uasset" 672
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 673
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Steam01_Cue.uasset" 674
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/P_Steam_Lit.uasset" 675
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 676
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Lamp_M.uasset" 677
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Lamp_N.uasset" 678
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_Lamp.uasset" 679
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 680
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 681
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 682
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 683
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 684
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 685
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 686
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 687
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 688
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 689
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 690
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 691
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 692
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 693
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 694
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 695
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 696
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 697
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 698
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 699
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 700
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 701
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 702
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 703
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Gradinet_01.uasset" 704
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 705
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 706
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 707
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 708
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 709
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 710
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 711
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 712
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 713
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 714
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 715
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 716
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 717
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 718
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 719
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 720
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 721
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 722
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 723
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 724
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 725
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 726
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Ground_Moss.uasset" 727
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 728
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 729
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 730
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 731
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 732
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 733
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Metal_Copper.uasset" 734
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 735
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Metal_Gold.uasset" 736
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 737
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Metal_Rust.uasset" 738
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 739
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 740
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Metal_Steel.uasset" 741
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 742
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 743
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 744
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 745
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 746
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 747
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 748
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 749
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Rock_Slate.uasset" 750
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 751
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 752
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 753
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 754
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 755
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 756
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 757
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 758
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 759
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 760
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 761
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Tech_Panel.uasset" 762
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Water_Lake.uasset" 763
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 764
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 765
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 766
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 767
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 768
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 769
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 770
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 771
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Wood_Oak.uasset" 772
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 773
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 774
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Wood_Pine.uasset" 775
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 776
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 777
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 778
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Floor_400x400.uasset" 779
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Wall_400x200.uasset" 780
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 781
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 782
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Collapse_Cue.uasset" 783
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 784
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 785
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 786
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 787
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 788
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/MaterialSphere.uasset" 789
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Chair.uasset" 790
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Frame_M.uasset" 791
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Frame_N.uasset" 792
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_Frame.uasset" 793
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_CornerFrame.uasset" 794
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_DoorFrame.uasset" 795
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_GlassWindow.uasset" 796
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_PillarFrame.uasset" 797
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_PillarFrame300.uasset" 798
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Statue_M.uasset" 799
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_Statue_N.uasset" 800
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_Statue.uasset" 801
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 802
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_Statue.uasset" 803
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_TableRound_M.uasset" 804
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Textures/T_TableRound_N.uasset" 805
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/Materials/M_TableRound.uasset" 806
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_TableRound.uasset" 807
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Props/SM_WindowFrame.uasset" 808
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Cube.uasset" 809
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 810
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Shapes/Shape_Sphere.uasset" 811
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Maps/StarterMap.umap" 812
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 813
+"D:/Unreal Projs/CulminatingProj/Content/StarterContent/Maps/Minimal_Default.umap" 814
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 815
+"../../../Engine/Content/Maps/Entry.umap" 816

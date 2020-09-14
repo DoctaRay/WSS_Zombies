@@ -71,6 +71,7 @@ void ASGameMode::EndWave()
 
 void ASGameMode::PrepareForNextWave()
 {
+	//Sets time between wave. 
     GetWorldTimerManager().SetTimer(TimerHandleNextWaveStart, this, &ASGameMode::StartWave, TimeBetweenWaves, false);
 }
 

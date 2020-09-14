@@ -28,7 +28,7 @@ ASTrackerBot::ASTrackerBot()
 	OwningHealthComp = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 	OwningHealthComp->OnHealthChanged.AddDynamic(this, &ASTrackerBot::HandleTakeDamage);
 
-	// To check if TrackerBot is close to player
+	// Collision channel to check if DeathBot is close to player
 	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	SphereComp->SetSphereRadius(200);
 	SphereComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
@@ -68,7 +68,7 @@ void ASTrackerBot::SelfDestruct()
 
 	UGameplayStatics::PlaySoundAtLocation(this, ExplodeSound, GetActorLocation());
 
-	DrawDebugSphere(GetWorld(), GetActorLocation(), ExplosionRadius, 12, FColor::Blue, false, 2.0f, 0, 1.0f);
+	//DrawDebugSphere(GetWorld(), GetActorLocation(), ExplosionRadius, 12, FColor::Blue, false, 2.0f, 0, 1.0f);
 
 
 	Destroy();
@@ -94,8 +94,6 @@ void ASTrackerBot::SelfDestruct()
 void ASTrackerBot::HandleTakeDamage(USHealthComponent* OwningHealthComp, float Health, float HealthChanged, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser)
 {
 	// Explode on death
-
-	// @TODO: Pulse the material on hit
 	if (MatInst == nullptr)
 	{
 		MatInst = MeshComp->CreateAndSetMaterialInstanceDynamicFromMaterial(0, MeshComp->GetMaterial(0));
@@ -142,7 +140,7 @@ void ASTrackerBot::NotifyActorBeginOverlap(AActor* OtherActor)
 
 void ASTrackerBot::SelfDamage()
 {
-	UGameplayStatics::ApplyDamage(this, 20, GetInstigatorController(), this, nullptr);
+	UGameplayStatics::ApplyDamage(this, 50, GetInstigatorController(), this, nullptr);
 }
 
 // Called every frame

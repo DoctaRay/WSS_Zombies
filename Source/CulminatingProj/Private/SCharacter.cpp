@@ -40,7 +40,7 @@ void ASCharacter::BeginPlay()
 
 	DefaultFOV = CameraComp->FieldOfView;
 
-	//Spawn a starter weapon
+	//Spawn the starter weapon
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
@@ -115,27 +115,20 @@ void ASCharacter::SwitchWeapon()
 		if (SecondaryWeapon) 
 		{
 			//attach to weapon socket (CPP Version of previous Blueprint Code)
-			//PrimaryWeapon->Destroy();
 			PrimaryWeapon->SetActorHiddenInGame(true);
 			SecondaryWeapon->SetActorHiddenInGame(false);
-			//SecondaryWeapon = GetWorld()->SpawnActor<ASWeapon>(EndWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
-			//SecondaryWeapon->SetOwner(this);
-			//SecondaryWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+			
 			bIsPrimaryWeapon = false;
 		}
 	}
 	else 
 	{
-		//PrimaryWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+		
 		if (PrimaryWeapon)
 		{
-			//SecondaryWeapon->Destroy();
 			SecondaryWeapon->SetActorHiddenInGame(true);
 			PrimaryWeapon->SetActorHiddenInGame(false);
-			//attach to weapon socket (CPP Version of previous Blueprint Code)
-			//PrimaryWeapon = GetWorld()->SpawnActor<ASWeapon>(StarterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
-			//PrimaryWeapon->SetOwner(this);
-			//PrimaryWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "WeaponSocket");
+
 			bIsPrimaryWeapon = true;
 		}
 
@@ -159,7 +152,6 @@ void ASCharacter::OnHealthChanged(USHealthComponent* HealthComp, float Health, f
 	if (Health <= 0.0f && !bDied)
 	{
 		// Die
-
 		bDied = true;
 
 		GetMovementComponent()->StopMovementImmediately();
@@ -183,13 +175,14 @@ void ASCharacter::Tick(float DeltaTime)
 
 	if (bWantsToFire && bIsPrimaryWeapon)
 	{
-		PrimaryWeapon->Fire();
+		PrimaryWeapon->Used();
 	}
 
 	if (bWantsToFire && !bIsPrimaryWeapon)
 	{
-		SecondaryWeapon->Fire();
+		SecondaryWeapon->Used();
 	}
+
 
 }
 

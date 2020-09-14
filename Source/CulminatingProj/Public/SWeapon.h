@@ -51,12 +51,21 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "ProjectileClass")
 	TSubclassOf<AActor> Projectile_Class;
 
+	FTimerHandle FireRateHandle;
+
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
 	float BaseDamage;
 
 	float ActualDamage;
 
+	float OriginalCount;
+
 	float OriginalMax;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
+	float FireRate;
+
+	bool bFired;
 
 
 public:	
@@ -64,7 +73,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	virtual void Used();
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	virtual void Fire();
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	virtual void Stop();
 
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	void Reload();

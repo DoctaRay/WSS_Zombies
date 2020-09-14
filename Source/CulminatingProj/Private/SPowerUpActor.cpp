@@ -20,6 +20,7 @@ void ASPowerUpActor::BeginPlay()
 	Super::BeginPlay();
 }
 
+//every tick once powerup has been activated
 void ASPowerUpActor::OnTickPowerUp()
 {
 	TicksDone++;

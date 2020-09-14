@@ -8,6 +8,7 @@ void ABallShooter::Fire()
 	if (AmmoCount == 0) {
 		return;
 	}
+
 	AActor* MyOwner = GetOwner();
 	if (MyOwner && ProjectileClass) {
 		FVector EyeLocation;
