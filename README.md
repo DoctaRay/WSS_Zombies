@@ -1,4 +1,4 @@
-# WSS Zombies - round-based survival shooter.
+# WSS Zombies - round-based survival shooter
 
 ![](HighresScreenshot00000.png)
 ![](HighresScreenshot00001.png)
