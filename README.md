@@ -1,4 +1,4 @@
-# Grade 12 Culminating Project
+WSS Zombies - round-based survival shooter.
 
 ![](HighresScreenshot00000.png)
 ![](HighresScreenshot00001.png)
